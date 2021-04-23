@@ -10,6 +10,11 @@
 Version history:
 ----------------
 
+Version 6.2 (unoffical)
+
++ Applying patch to support newer Perls
+  https://rt.cpan.org/Public/Bug/Display.html?id=76442
+
 Version 6.1   15.10.2009
 
  +  United "Date::Calc" and "Date::Pcalc" into a single distribution
