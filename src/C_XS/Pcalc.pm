@@ -103,7 +103,7 @@ require DynaLoader;
 ##                                              ##
 ##################################################
 
-$VERSION = '6.1';
+$VERSION = '6.2';
 
 bootstrap Date::Pcalc $VERSION;
 
