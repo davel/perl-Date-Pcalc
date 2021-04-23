@@ -54,7 +54,15 @@ my %Parameters =
 #   ($] >= 5.005 && $^O eq 'MSWin32' && $Config::Config{'archname'} =~ /-object\b/i ?
 #       ('CAPI'         => 'TRUE') : ()),
     'dist'              => { COMPRESS => "gzip -9", SUFFIX => "gz" },
-    'clean'             => { FILES => join(' ', @Clean) }
+    'clean'             => { FILES => join(' ', @Clean) },
+    'META_MERGE' => {
+      "meta-spec" => { version => 2 },
+      resources => {
+        repository => {
+          url => "https://github.com/davel/perl-Date-Pcalc",
+        }
+      },
+    },
 );
 
 sub Check_CC
